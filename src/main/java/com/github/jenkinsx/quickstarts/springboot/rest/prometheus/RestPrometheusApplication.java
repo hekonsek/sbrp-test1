@@ -28,6 +28,7 @@ public class RestPrometheusApplication {
 	}
 
 	public static void main(String[] args) {
+		System.out.println(System.getenv());
 		SpringApplication.run(RestPrometheusApplication.class, args);
 	}
 
